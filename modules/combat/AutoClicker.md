@@ -4,7 +4,7 @@
 
 ## Description
 
-Automates either left or right clicking.
+Automates either left or right clicking or holding either right of left
 
 ## Settings
 
