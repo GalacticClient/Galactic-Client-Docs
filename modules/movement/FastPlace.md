@@ -4,6 +4,8 @@
 
 ## Description
 
+Reduces or removes the cooldown between block placements.
+
 ## Settings
 
-No settings have been documented yet.
+**Delay**: Sets the delay between block placements (in ticks).
