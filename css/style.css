@@ -368,6 +368,41 @@ font-size: 14px;
 line-height: 1.7;
 }
 
+.module-description p {
+margin: 0 0 12px;
+}
+
+.module-description p:last-child {
+margin-bottom: 0;
+}
+
+.module-description pre {
+padding: 12px;
+border-radius: 7px;
+background: var(--panel-3);
+overflow-x: auto;
+}
+
+.module-description pre code {
+padding: 0;
+background: none;
+font-size: 12px;
+}
+
+.module-description a {
+color: var(--accent);
+text-decoration: none;
+}
+
+.module-description a:hover {
+text-decoration: underline;
+}
+
+.module-description .muted {
+color: var(--muted-2);
+font-style: italic;
+}
+
 .status {
 display: inline-flex;
 margin-top: 15px;
