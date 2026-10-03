@@ -34,7 +34,6 @@ if (!groups[module.category]) groups[module.category] = [];
 groups[module.category].push(module);
 }
 
-// When searching, auto-expand all categories with matches
 const searching = term.length > 0;
 
 for (const category of Object.keys(groups).sort()) {
@@ -100,7 +99,7 @@ content.innerHTML = `
 <div class="hero">
 <div class="eyebrow">GALACTIC CLIENT</div>
 <h1>Documentation</h1>
-<p>Docs for Galactic Client modules.</p>
+<p>Reference for Galactic Client modules and categories.</p>
 <a class="download-btn" href="https://github.com/GalacticClient/Galactic-Client" target="_blank" rel="noopener">Download</a>
 </div>
 <div class="stats">
@@ -151,7 +150,7 @@ content.innerHTML = `
 <h1 class="module-title">${escapeHtml(module.name)}</h1>
 <div class="section">
 <h2 class="section-title">Description</h2>
-<div class="module-description">${escapeHtml(module.description || "")}</div>
+<div class="module-description" id="module-desc">Loading...</div>
 </div>
 ${renderSettings(module.settings)}
 </div>
@@ -159,6 +158,71 @@ ${renderSettings(module.settings)}
 
 highlightActive();
 window.scrollTo({ top: 0, behavior: "smooth" });
+
+
+fetchModuleMarkdown(module);
+}
+
+function fetchModuleMarkdown(module) {
+const descEl = document.getElementById("module-desc");
+if (!descEl) return;
+
+
+const safeName = module.name.replace(/\//g, "-").replace(/\\/g, "-");
+const mdUrl = `modules/${module.category_id}/${safeName}.md?v=${Date.now()}`;
+
+fetch(mdUrl)
+.then(response => {
+if (!response.ok) throw new Error("Not found");
+return response.text();
+})
+.then(md => {
+const description = parseDescriptionSection(md);
+descEl.innerHTML = description;
+})
+.catch(() => {
+descEl.innerHTML = '<span class="muted">No description yet.</span>';
+});
+}
+
+function parseDescriptionSection(md) {
+
+const descMatch = md.match(/## Description\s*\n([\s\S]*?)(?=\n## |\n$|$)/);
+if (!descMatch) return '<span class="muted">No description yet.</span>';
+
+let text = descMatch[1].trim();
+if (!text) return '<span class="muted">No description yet.</span>';
+
+
+
+text = text
+.replaceAll("&", "&amp;")
+.replaceAll("<", "&lt;")
+.replaceAll(">", "&gt;");
+
+
+text = text.replace(/```(\w*)\n?([\s\S]*?)```/g, (_, lang, code) =>
+`<pre><code>${code.trim()}</code></pre>`);
+
+
+text = text.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+
+text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+
+
+text = text.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, "<em>$1</em>");
+
+
+text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g,
+'<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+
+text = text.split(/\n\n+/).map(para =>
+para.trim() ? `<p>${para.replace(/\n/g, "<br>")}</p>` : ""
+).join("");
+
+return text;
 }
 
 function renderSettings(settings) {
