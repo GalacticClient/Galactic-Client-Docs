@@ -1,0 +1,2633 @@
+{
+  "module_count": 327,
+  "categories": {
+    "Blocks": 36,
+    "Combat": 56,
+    "Movement": 54,
+    "Render": 73,
+    "Chat": 6,
+    "Fun": 12,
+    "Items": 29,
+    "Retro": 6,
+    "Other": 39,
+    "Non-Hack": 16
+  },
+  "modules": [
+    {
+      "name": "AutoBreed",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoFarm",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoFarmLegit",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoMine",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoShear",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSign",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoTool",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BedBreaker",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BonemealAura",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BreakDelay",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BuildHeight",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BuildRandom",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "EChestFarmer",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Excavator",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastBreak",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "GhostHand",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Harvester",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HighwayBuilder",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InstantBunker",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InstantRebreak",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Kaboom",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "KaboomLegit",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LiquidFill",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Liquids",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoGhostBlocks",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Nuker",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NukerLegit",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Scaffold",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ScaffoldWalk",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpawnProofer",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpeedNuker",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpeedNukerLegit",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TemplateTool",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Tillaura",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Tunneller",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "VeinMiner",
+      "category": "Blocks",
+      "category_id": "blocks",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BetterChat",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FancyChat",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "/home",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MassTpa",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MassTpaHere",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Spammer",
+      "category": "Chat",
+      "category_id": "chat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AimAssist",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiAnvil",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiBed",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiBot",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiKnockback",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ArrowDodge",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AttributeSwap",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoCity",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoClicker",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoGapple",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoLeave",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoMace",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSoup",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoStunSlam",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSwitch",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSword",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoTrap",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoWeapon",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoWeb",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BedAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BlockHit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BossStack",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BowAimbot",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BowSpam",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Burrow",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ClickAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ClickAuraLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CobwebBreaker",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CritTiming",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Criticals",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CrystalAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CrystalAuraLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ExpThrower",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FightBot",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HitSelect",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HitSwap",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HoleFiller",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "JumpReset",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "KillAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "KillAuraLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LeftClicker",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MessageAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MultiAura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MultiAuraLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Protect",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Reach",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "RightClicker",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SelfTrap",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ShieldMacro",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SprintReset",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Surround",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TP-Aura",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ThrowDebuff",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TickShiftLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TriggerBot",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "VelocityLegit",
+      "category": "Combat",
+      "category_id": "combat",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ChatGames",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ColorUi",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Derp",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FakePlayer",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HeadRoll",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Headless",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ItemPhysics",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Lsd",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MileyCyrus",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Notebot",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SkinDerp",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Tired",
+      "category": "Fun",
+      "category_id": "fun",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ArmorSwitch",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoArmor",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoBrewer",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoDrop",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoEat",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoHotbar",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoLibrarian",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoMend",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoNametag",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoPearl",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoPotion",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoReplenish",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSmelter",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSteal",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoTotem",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BetterBeacons",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ChestStealer",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ChestSwap",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CmdBlock",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CrashChest",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CrashTag",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InvCleaner",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InventoryTweaks",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "KillPotion",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Offhand",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Refill",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SelfAnvil",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Throwpot",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TrollPotion",
+      "category": "Items",
+      "category_id": "items",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AirJump",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Anchor",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiLevitation",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiVoid",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiWaterPush",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiWobble",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoElytraFly",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoJump",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoMLG",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoMount",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSprint",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSwim",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoWalk",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BackTap",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Blink",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BlinkLegit",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BunnyHop",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Clutch",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Collisions",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Dolphin",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "EntityControl",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastLadder",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastPlace",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Fly",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FlyLegit",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Follow",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Glide",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HighJump",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InventoryMove",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Jesus",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "JesusLegit",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Jetpack",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "KeepSprint",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LongJump",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoClip",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoFall",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoRotateSet",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoSlowdown",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoWeb",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Parkour",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Phase",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Portals",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ReverseStep",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SafeWalk",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Slippy",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Snap",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Sneak",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpacingController",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpeedHack",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpeedLegit",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Spider",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpiderLegit",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Step",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Strafe",
+      "category": "Movement",
+      "category_id": "movement",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ArmorHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoLogin",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ClockHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CoordsHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CpsDisplay",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CreamyKeys",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "DeathCords",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FPSPingHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HitColour",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "InventoryHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Keystrokes",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PotionHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "QuickToggleBar",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpeedHud",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "UIUtils",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Weather",
+      "category": "Non-Hack",
+      "category_id": "non_hack",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AirPlace",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiAFK",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiCactus",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiHunger",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiPacketKick",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiSpam",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoFish",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoGG",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoLog",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoReconnect",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoRespawn",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSplashPot",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoSwing",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AutoXP",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Baritone",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "EndermanLook",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastUse",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LiquidInteract",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LogSpammer",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MurderFinder",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoDynamicFov",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoInteract",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Notifier",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Panic",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PluginFinder",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PortalMenu",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PotionSaver",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Regen",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Schematic Manager",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ScreenRecording",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ServerSpoof",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SoundBlocker",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Teleport",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Throw",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Timer",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TimerLegit",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TuffDebug",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "UnderY0",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ViaBlocks",
+      "category": "Other",
+      "category_id": "other",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ActiveModuleHud",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Animations",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiBlind",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiDebuff",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Arrows",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BaseFinder",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BetterTab",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BetterTooltips",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BlockESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Breadcrumbs",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "BreakIndicators",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CameraNoClip",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CameraTweaks",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "CaveFinder",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Chams",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ChestESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Durability",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "EntityOwner",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Explosions",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FreeLook",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Freecam",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Fullbright",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "GuiBlur",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HandView",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Health",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HealthTags",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Hitboxes",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HoleESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "HurtCam",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ItemAmountHud",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ItemESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ItemHighlight",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Jump Circle",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LightOverlay",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "LogoutSpots",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "MobESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NameProtect",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NameTags",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoBlockOverlay",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoFog",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoHurtcam",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoMiningTrace",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoOverlay",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoRender",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "NoStatusEffects",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Notifications",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Obsidian/Ancient Debris ESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PlayerESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PlayerFinder",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PlayerInfoEsp",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PopChams",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "PortalESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ProphuntESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Radar",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "RemoteView",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Search",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Shaders",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "SpawnerESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "StashFinder",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "StorageESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TabGUI",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TargetHUD",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TimeChanger",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TntTime",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Tracers",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Trail",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Trajectories",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TrueSight",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "TunnelESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "VoidESP",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Waypoints",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "XRay",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "Zoom",
+      "category": "Render",
+      "category_id": "render",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiFire",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "AntiPotion",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastBow",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastBowLegit",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "FastEat",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    },
+    {
+      "name": "ForcePush",
+      "category": "Retro",
+      "category_id": "retro",
+      "description": "",
+      "documented": false,
+      "settings": []
+    }
+  ]
+}
